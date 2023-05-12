@@ -21,5 +21,8 @@ void main() {
     case days.Friday:
       print("Today is Friday");
       break;
+    case days.Saturday:
+      print("Today is Saturday");
+      break;
   }
 }
