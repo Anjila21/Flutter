@@ -1,0 +1,25 @@
+enum days { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday }
+
+void main() {
+  var today = days.Friday;
+  switch (today) {
+    case days.Sunday:
+      print("Today is Sunday");
+      break;
+    case days.Monday:
+      print("Today is Monaday");
+      break;
+    case days.Tuesday:
+      print("Today is Tuesday");
+      break;
+    case days.Wednesday:
+      print("Today is Wednesday");
+      break;
+    case days.Thursday:
+      print("Today is Thursday");
+      break;
+    case days.Friday:
+      print("Today is Friday");
+      break;
+  }
+}
